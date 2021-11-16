@@ -1,0 +1,28 @@
+.title{
+  line-height: 40px;
+}
+
+.sku-item{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.sku-item span {
+  border:1px solid #eee;
+  cursor: pointer;
+  padding:5px 10px;
+}
+
+.sku-item .active{
+  border: 1px solid red;
+  background-color: red;
+  color:#fff;
+}
+
+.sku-item .disabled{
+  color: #c0c4cc;
+  cursor: not-allowed;
+  background-image: none;
+  background-color: #fff;
+  border-color: #ebeef5;
+}
